@@ -1,10 +1,13 @@
 import tkinter as tk
 
-total = 26000
+# please change the total according to your needs
+total = 1000
+
 expenses = []
 remaining_cash = 0
 
-with open(r"C:\Users\salam\OneDrive\Desktop\expenses.txt") as f:
+# please change directory according to your needs
+with open(r"C:\Users\windows\OneDrive\Desktop\expenses.txt") as f:
     lines = f.readlines()
     for line in lines:
         if "total" in line:
